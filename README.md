@@ -135,15 +135,15 @@ ORDER BY HSKILLS/kills DESC
 #### TOP RATINGS:
 
 ###### Rating (K/R)
-1.6806	- saveeey
-1.5181	- Chill
-1.4636	- r0ck
-1.4583	- Woozy
-1.3977	- ElouS
+- 1.6806	- saveeey
+- 1.5181	- Chill
+- 1.4636	- r0ck
+- 1.4583	- Woozy
+- 1.3977	- ElouS
 
 ###### HS %
-64%  - Cuftek// ec18
-62%  - zagrab
-61%  - HorrorByMe
-59%  - ElouS
-57%  - Nino
+- 64%  - Cuftek// ec18
+- 62%  - zagrab
+- 61%  - HorrorByMe
+- 59%  - ElouS
+- 57%  - Nino
