@@ -131,3 +131,19 @@ SELECT HSKILLS/kills, steamId
 FROM (SELECT sum(kills)AS KILLS, sum(deaths) AS DEATHS, sum(headshot_kills) AS HSKILLS, steam_id AS steamId FROM get5.player_stats GROUP BY steam_id) D
 ORDER BY HSKILLS/kills DESC
 ```
+
+#### TOP RATINGS:
+
+###### Rating (K/R)
+1.6806	- saveeey
+1.5181	- Chill
+1.4636	- r0ck
+1.4583	- Woozy
+1.3977	- ElouS
+
+###### HS %
+64%  - Cuftek// ec18
+62%  - zagrab
+61%  - HorrorByMe
+59%  - ElouS
+57%  - Nino
