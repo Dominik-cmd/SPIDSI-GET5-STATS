@@ -128,6 +128,8 @@ order by count(map_name) DESC
 - 2	de_nuke
 - 1	de_dust2
 
+Total rounds played across all maps: 1485
+
 
 
 ## Player stats
