@@ -125,3 +125,9 @@ ORDER BY m.start_time DESC
 #### 27128	 - ElouS -- damage
 #### 32	 - PORKA -- bomb_plants
 #### 7	 - r0ck -- bomb defuses
+
+```
+SELECT HSKILLS/kills, steamId
+FROM (SELECT sum(kills)AS KILLS, sum(deaths) AS DEATHS, sum(headshot_kills) AS HSKILLS, steam_id AS steamId FROM get5.player_stats GROUP BY steam_id) D
+ORDER BY HSKILLS/kills DESC
+```
