@@ -112,3 +112,16 @@ WHERE t.id > 2 AND t1.id > 2
 AND m.end_time IS NOT NULL
 ORDER BY m.start_time DESC
 ```
+
+## Player stats
+
+#### 246	 - ElouS -- kills
+#### 198	 - FOOLZZ -- deaths
+#### 56	 - Grmekk $ -- assists
+#### 19	 - ZELElegend cs.money -- flashbang_assists
+#### 3	 - reyn -- teamkills
+#### 3	 - Murka gamdom.com -- suicides
+#### 147	 - ElouS -- headshot_kills
+#### 27128	 - ElouS -- damage
+#### 32	 - PORKA -- bomb_plants
+#### 7	 - r0ck -- bomb defuses
