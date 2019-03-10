@@ -96,4 +96,19 @@ ORDER BY m.start_time DESC
 - cebabula	OMG Clan	cebabula
 - Agregat 10	HypedRetards	Agregat 10
 
-## 
+## Longest match - Agregat 10 vs HareKrištan (finals) 157 minuts and 31 seconds
+
+```
+SELECT t.name AS Team1, t1.name AS Team2, t2.name AS Winner, m.start_time AS Start_Time, m.end_time AS End_Time,
+UNIX_TIMESTAMP(m.end_time) - UNIX_TIMESTAMP(m.start_time) AS GAP 
+FROM get5.match m 
+INNER JOIN get5.team t 
+	ON m.team1_id = t.id 
+INNER JOIN get5.team t1 
+	ON m.team2_id = t1.id
+INNER JOIN get5.team t2 
+	ON m.winner = t2.id
+WHERE t.id > 2 AND t1.id > 2 
+AND m.end_time IS NOT NULL
+ORDER BY m.start_time DESC
+```
