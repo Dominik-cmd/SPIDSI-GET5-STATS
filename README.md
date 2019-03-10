@@ -113,6 +113,23 @@ AND m.end_time IS NOT NULL
 ORDER BY m.start_time DESC
 ```
 
+## Map stats
+```
+SELECT count(map_name), map_name FROM get5.map_stats
+group by map_name
+order by count(map_name) DESC
+```
+
+- 23	de_mirage
+- 20	de_cache
+- 8	de_inferno
+- 6	de_train
+- 4	de_overpass
+- 2	de_nuke
+- 1	de_dust2
+
+
+
 ## Player stats
 
 #### 246	 - ElouS -- kills
